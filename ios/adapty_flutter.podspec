@@ -18,7 +18,7 @@ Adapty helps you track business metrics, and lets you run ad campaigns targeted 
   s.dependency 'Flutter'
   
   s.ios.dependency 'Adapty', '3.3.6'
-  s.ios.dependency 'AdaptyUI', '3.3.6'
+  s.ios.dependency 'AdaptyUI', :git => 'git@github.com:lebedevich/AdaptySDK-iOS.git', :branch => 'updated'
   s.ios.dependency 'AdaptyPlugin', '3.3.6'
   
   s.platform = :ios, '13.0'
